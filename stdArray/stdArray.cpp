@@ -26,7 +26,7 @@ int main() {
 
 	cout << "Memory Locatoins\n"; 
 	cout << &myArray.front() << endl;			
-	cout << myArray.data() << endl;					// Returns locaiton 
+	cout << myArray.data() << endl;					// Returns locaiton of the array. i.e its first elt 
 
 	return 0; 
 } 
